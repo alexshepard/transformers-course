@@ -43,5 +43,6 @@ def main():
     summarizer = pipeline("summarization", "facebook/bart-large-cnn")
     print(summarizer(context))
 
+
 if __name__ == "__main__":
     main()
