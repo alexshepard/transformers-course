@@ -1,5 +1,6 @@
 from transformers import pipeline
 
+
 def main():
     question_answerer = pipeline("question-answering")
     question = "Where do I work?"
