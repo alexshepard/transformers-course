@@ -1,5 +1,6 @@
 from transformers import pipeline
 
+
 def main():
     classifier = pipeline("zero-shot-classification")
     input = "This is a course about the Transfomers library"
